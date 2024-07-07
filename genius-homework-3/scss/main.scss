@@ -1,0 +1,59 @@
+@import './utils/fonts.scss';
+
+@import './utils/variables.scss';
+
+@import './base';
+
+@import './utils/utils';
+
+@import './components/button';
+
+@import './components/links';
+
+.container {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 48px 0;
+}
+
+.section-title {
+  font-family: var(--third-family);
+  color: var (--beauty-landing-2-c1);
+  text-align: center;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+/* Header */
+@import './components/header';
+
+/* hero section */
+@import './components/hero-section';
+
+/* indenture-section */
+@import './components/indenture-section';
+
+/* advantages-section */
+@import './components/advantages-section';
+
+/* наші процедури - Format section*/
+@import './components/procedures-section';
+
+/* carousel */
+@import './components/carousel';
+
+/* контакти */
+@import './components/contact-section';
+
+/* Footer */
+@import './components/footer';
+
+/* modal window */
+@import './components/modal-window';
+
+/* Form */
+@import './components/form';

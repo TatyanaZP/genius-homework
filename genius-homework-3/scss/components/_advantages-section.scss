@@ -1,0 +1,49 @@
+.advantages-section {
+  display: flex;
+  padding-top: 176px;
+}
+
+.advantages-list {
+  display: flex;
+  display: flex;
+  gap: 56px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.advantages-items {
+  text-align: center;
+  align-items: center;
+  gap: 40px;
+}
+.advantages-card {
+  border-radius: 32px;
+  width: 316px;
+
+  padding: 24px 32px;
+  box-shadow: 0 4px 4px 0 rgba(168, 198, 245, 0.38);
+  background: var(--beauty-landing-2-background);
+}
+
+.advantages-img {
+  width: 48px;
+  height: 48px;
+}
+
+.title {
+  color: var(--beauty-landing-2-s2);
+}
+
+.text {
+  color: var(--beauty-landing-2-c1);
+  font-family: var(--second-family);
+  font-size: 18px;
+  margin: 0;
+}
+
+.blau-background {
+  background: url(../image/background-blau.svg);
+  background-repeat: repeat;
+  background-position: center top;
+  background-size: cover;
+}

@@ -1,0 +1,55 @@
+.fomats-container {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.formats-title {
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 80px;
+}
+
+.formats-list {
+  display: flex;
+  gap: 20px;
+  width: 1059px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formats-items {
+  flex-basis: calc((100% - 40px) / 3);
+}
+
+.formats-card {
+  position: relative;
+  height: 456px;
+  padding: 24px;
+  background-image: linear-gradient(
+    180deg,
+    hsl(216, 97%, 14%, 0) 47.4%,
+    hsl(216, 97%, 14%, 0.71) 82.66%,
+    var(--beauty-landing-2-c1) 99.06%
+  );
+  border-radius: 120px 4px;
+  transition: transform 0.2s;
+}
+
+.formats-card:hover {
+  transform: scale(1.05s);
+}
+
+.format-image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.format-text {
+  font-family: var(--second-family);
+  font-size: 22px;
+}
